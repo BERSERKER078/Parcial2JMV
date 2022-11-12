@@ -1,0 +1,155 @@
+/*Header*/
+header{
+    background-color: rgb(217, 235, 133);
+    height: 100px;
+}
+.logo img{
+    height: 100px;
+    width: 100px;
+}
+.logo{
+    display: flex;
+}
+.logo h2{
+    padding-top: 20px;
+    padding-left: 20px ;
+}
+.navegacion{
+    display: flex;
+    list-style: none;
+}
+.navegacion li{
+    border-right:  1px solid black;
+}
+.navegacion li a{
+    display: block;
+    padding: 30px;
+    text-decoration: none;
+    color: black;
+}
+.navegacion li:hover {
+    background: white;
+}
+/*Main*/
+main{
+    background: url(/img/background.jpg);
+}
+.mainLeft, .mainRight{
+    margin: 40px 0px;
+}
+.mainLeft{
+    border-radius: 10px;
+    background-color: white;
+    padding: 30px 20px 20px 20px;
+}
+.mainLeft h1{
+    font-size: 30px;
+}
+.mainRight{
+    padding-left: 30px ;
+}
+.mainRight img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+/*Features*/
+.features{
+    background-color:rgb(219, 146, 56) ;
+    padding: 30px;
+}
+.sectionLeft ,.sectionMid ,.sectionRight {
+    border: 2px solid black ;
+    border-radius: 15px;
+    padding: 10px;
+    background-color:rgb(234, 197, 140);
+}
+.nombrePlato{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+}
+section p{
+    text-align: center;
+    padding: 10px;
+}
+.platos{
+    border-radius: 10px;
+    width: 100%;
+    height: 50%;
+}
+/*Noticia*/
+#Instalaciones{
+    background-color: gray;
+    padding: 30px;
+}
+.noticiaLeft
+{
+    background-color: rgb(230, 237, 142);
+    border-radius: 20px;
+    padding: 10px;
+}
+.noticiaLeft h2{
+    text-align: center;
+}
+.noticiaRight{
+    padding-top: 50px;
+
+}
+.noticiaRight video{
+    width: 100%;
+    height: 100%;
+}
+.noticiaLeft span{
+    color: rgb(246, 56, 17);
+}
+/*Slider*/
+.Slider{
+    background-color: cadetblue;
+}
+.sliderMid{
+    padding: 20px;
+    text-align: center;
+}
+.sliderMid h2, .sliderMid p{
+    font-family: 'Dosis', sans-serif;
+    color: black;
+}
+.signo{
+    padding-top: 100px;
+}
+#cliente{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+#span-cliente{
+    color:white
+}
+/*Formulario*/
+.form-c{
+    background-color: aqua;
+}
+.formulario{
+    padding-top: 20px;
+    text-align: center;
+}
+/*Footer*/
+footer{
+    padding: 20px;
+}
+.footer-navegacion{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+.footer-navegacion li{
+    border-right: 1px solid black;
+}
+.footer-navegacion li a{ 
+    text-decoration: none;
+    padding: 60px;
+    color: black;
+}
+.footer-navegacion li a:hover {
+    color: red;
+}
